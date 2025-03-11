@@ -1,6 +1,6 @@
 # 💫 AI-Enhanced Weather Visualization: Interactive Global & Brazilian Forecast App
 
-This weather application leverages modern web technologies to deliver a comprehensive and interactive weather experience with a special focus on Brazilian locations.
+This weather application delivers an interactive weather experience with a special focus on Brazilian locations. **By default, the app uses simulated weather data for testing and demonstration purposes**, but we have now provided the **possibility to switch to real-time weather data** from the **OpenWeatherMap API**.
 
 ## 🌐 Technologies Used:
 
@@ -30,6 +30,18 @@ This weather application leverages modern web technologies to deliver a comprehe
 - **Responsive and Accessible Design**: Experience the app seamlessly across all devices and browsers, with a focus on accessibility and responsiveness.
 - **Weather Animations**: Realistic animations for weather conditions enhance the forecast experience, making it both informative and engaging.
 
+### **💡 From Random Data to Real Data:**
+
+Until recently, this weather application **used simulated (random) data** for testing and demonstration purposes. This allowed us to showcase how the app works without needing a live connection to weather services. **However, we have now introduced the ability to switch to real-time weather data**, ensuring **accurate and up-to-date weather forecasts** for any location.
+
+### **🔧 How to Switch to Real Weather Data:**
+
+To switch to real-time data, you can now update the component **`realprevision.tsx`** in the `/app` folder. This component fetches **real weather data** from the **OpenWeatherMap API**, providing accurate forecasts based on latitude and longitude.
+
+- **How It Works:**
+    - **Simulated Data**: By default, weather data is simulated, which makes the app fast and perfect for testing.
+    - **Real-Time Data**: You can switch to real-time weather by configuring your OpenWeatherMap API key in **`realprevision.tsx`**. Once set up, the app will fetch real weather data from the OpenWeatherMap API for more accurate and live forecasts.
+
 ## 🛠️ Getting Started:
 
 To get a local copy of the project up and running on your machine, follow these steps:
@@ -49,7 +61,4 @@ To get a local copy of the project up and running on your machine, follow these 
    npm install --legacy-peer-deps
 
 4. Open your browser and navigate to http://localhost:3000
-
-
-By combining these technologies, this project creates a weather application that not only provides accurate forecasts but enhances the user experience through AI-powered search capabilities, interactive visualizations, and comprehensive coverage of not only Brazilian locations but all other locations around the World.
 
