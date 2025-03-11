@@ -4,7 +4,7 @@ This weather application leverages modern web technologies to deliver a comprehe
 
 ## 🌐 Technologies Used:
 
-![Next.js](https://img.shields.io/badge/Next.js-%000000.svg?style=for-the-badge&logo=next.js&logoColor=white) 
+![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
 ![shadcn/ui](https://img.shields.io/badge/shadcn.ui-%2302569B.svg?style=for-the-badge&logo=shadcn&logoColor=white) 
@@ -41,12 +41,12 @@ To get a local copy of the project up and running on your machine, follow these 
    ```bash
    cd weather-app
    npm install
-2.1. In case of error:
-   npm install --legacy-peer-deps
-
 3. Run the application locally:
    ```bash
    npm run dev
+4. In case of error installing the dependencies try:
+   ```bash
+   npm install --legacy-peer-deps
 
 4. Open your browser and navigate to http://localhost:3000
 
