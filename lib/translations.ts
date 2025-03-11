@@ -1,7 +1,5 @@
-// Translations for all supported locales
 export const translations = {
   "en-US": {
-    // General
     weatherForecast: "Weather Forecast",
     searchLocation: "Search location...",
     selectLocale: "Select locale",
@@ -12,7 +10,6 @@ export const translations = {
     feelsLike: "Feels like",
     loading: "Loading",
 
-    // Weather conditions
     Sunny: "Sunny",
     Cloudy: "Cloudy",
     Rainy: "Rainy",
@@ -21,7 +18,6 @@ export const translations = {
     Foggy: "Foggy",
     Snowy: "Snowy",
 
-    // Weather metrics
     humidity: "Humidity",
     precipitation: "Precipitation",
     wind: "Wind",
@@ -35,7 +31,6 @@ export const translations = {
     kmh: "km/h",
     hPa: "hPa",
 
-    // Air quality levels
     Good: "Good",
     Moderate: "Moderate",
     UnhealthySensitive: "Unhealthy for Sensitive Groups",
@@ -43,7 +38,6 @@ export const translations = {
     VeryUnhealthy: "Very Unhealthy",
     Hazardous: "Hazardous",
 
-    // Tabs and sections
     dailyForecast: "Daily Forecast",
     hourlyForecast: "Hourly Forecast",
     last7Days: "Last 7 Days",
@@ -58,7 +52,6 @@ export const translations = {
     noFavoriteLocations: "No favorite locations yet. Add some from the locations list.",
     rain: "Rain",
 
-    // Weather map
     weatherMap: "Weather Map",
     temperature: "Temperature",
     precipitation: "Precipitation",
@@ -88,56 +81,46 @@ export const translations = {
     afternoon: "Afternoon",
     night: "Night",
 
-    // Alerts
     alert: "Alert",
 
-    // Alert types
     Rain: "Rain",
     Storm: "Storm",
     Fog: "Fog",
     Snow: "Snow",
 
-    // Alert messages
     "Heavy rain expected": "Heavy rain expected",
     "Thunderstorms with possible lightning": "Thunderstorms with possible lightning",
     "Dense fog reducing visibility": "Dense fog reducing visibility",
     "Heavy snowfall expected": "Heavy snowfall expected",
 
-    // Time-related
     sunrise: "Sunrise",
     sunset: "Sunset",
 
-    // Alert severity levels
     advisory: "Advisory",
     warning: "Warning",
     severe: "Severe Warning",
     extreme: "Extreme Warning",
 
-    // Alert recommendations
     showRecommendations: "Show recommendations",
     hideRecommendations: "Hide recommendations",
     expiresAt: "Expires at",
 
-    // Rain recommendations
     stayIndoors: "Stay indoors if possible",
     useUmbrella: "Use an umbrella when going outside",
     avoidFlooding: "Avoid areas prone to flooding",
     driveSafely: "Drive carefully on wet roads",
 
-    // Storm recommendations
     seekShelter: "Seek shelter immediately",
     avoidTrees: "Stay away from trees and open areas",
     unpluggElectronics: "Unplug sensitive electronics",
     stayInformed: "Stay informed through local news",
     avoidMetalObjects: "Avoid contact with metal objects",
 
-    // Fog recommendations
     reduceDrivingSpeed: "Reduce driving speed",
     useFogLights: "Use fog lights when driving",
     keepDistance: "Maintain safe distance from other vehicles",
     avoidTravel: "Avoid unnecessary travel",
 
-    // Snow recommendations
     dressWarmly: "Dress in warm layers",
     clearSnow: "Clear snow from walkways",
     prepareCar: "Ensure your vehicle is winter-ready",
@@ -145,7 +128,6 @@ export const translations = {
   },
 
   "pt-BR": {
-    // General
     weatherForecast: "Previsão do Tempo",
     searchLocation: "Buscar localização...",
     selectLocale: "Selecionar idioma",
@@ -156,7 +138,6 @@ export const translations = {
     feelsLike: "Sensação térmica",
     loading: "Carregando",
 
-    // Weather conditions
     Sunny: "Ensolarado",
     Cloudy: "Nublado",
     Rainy: "Chuvoso",
@@ -165,7 +146,6 @@ export const translations = {
     Foggy: "Neblina",
     Snowy: "Neve",
 
-    // Weather metrics
     humidity: "Umidade",
     precipitation: "Precipitação",
     wind: "Vento",
@@ -179,7 +159,6 @@ export const translations = {
     kmh: "km/h",
     hPa: "hPa",
 
-    // Air quality levels
     Good: "Boa",
     Moderate: "Moderada",
     UnhealthySensitive: "Insalubre para Grupos Sensíveis",
@@ -187,7 +166,6 @@ export const translations = {
     VeryUnhealthy: "Muito Insalubre",
     Hazardous: "Perigosa",
 
-    // Tabs and sections
     dailyForecast: "Previsão Diária",
     hourlyForecast: "Previsão por Hora",
     last7Days: "Últimos 7 Dias",
@@ -202,7 +180,6 @@ export const translations = {
     noFavoriteLocations: "Nenhuma localização favorita ainda. Adicione algumas da lista de localizações.",
     rain: "Chuva",
 
-    // Weather map
     weatherMap: "Mapa Meteorológico",
     temperature: "Temperatura",
     cold: "Frio",
@@ -232,56 +209,54 @@ export const translations = {
     afternoon: "Tarde",
     night: "Noite",
 
-    // Alerts
     alert: "Alerta",
 
-    // Alert types
     Rain: "Chuva",
     Storm: "Tempestade",
     Fog: "Neblina",
     Snow: "Neve",
 
-    // Alert messages
+    
     "Heavy rain expected": "Previsão de chuva forte",
     "Thunderstorms with possible lightning": "Tempestades com possibilidade de raios",
     "Dense fog reducing visibility": "Neblina densa reduzindo a visibilidade",
     "Heavy snowfall expected": "Previsão de neve intensa",
 
-    // Time-related
+    
     sunrise: "Nascer do sol",
     sunset: "Pôr do sol",
 
-    // Alert severity levels
+   
     advisory: "Aviso",
     warning: "Alerta",
     severe: "Alerta Grave",
     extreme: "Alerta Extremo",
 
-    // Alert recommendations
+   
     showRecommendations: "Mostrar recomendações",
     hideRecommendations: "Ocultar recomendações",
     expiresAt: "Expira às",
 
-    // Rain recommendations
+   
     stayIndoors: "Permaneça em ambientes internos se possível",
     useUmbrella: "Use guarda-chuva ao sair",
     avoidFlooding: "Evite áreas propensas a inundações",
     driveSafely: "Dirija com cuidado em estradas molhadas",
 
-    // Storm recommendations
+    
     seekShelter: "Procure abrigo imediatamente",
     avoidTrees: "Mantenha distância de árvores e áreas abertas",
     unpluggElectronics: "Desligue aparelhos eletrônicos sensíveis",
     stayInformed: "Mantenha-se informado através de notícias locais",
     avoidMetalObjects: "Evite contato com objetos metálicos",
 
-    // Fog recommendations
+    
     reduceDrivingSpeed: "Reduza a velocidade ao dirigir",
     useFogLights: "Use faróis de neblina ao dirigir",
     keepDistance: "Mantenha distância segura de outros veículos",
     avoidTravel: "Evite viagens desnecessárias",
 
-    // Snow recommendations
+    
     dressWarmly: "Vista-se com camadas quentes",
     clearSnow: "Limpe a neve das calçadas",
     prepareCar: "Certifique-se de que seu veículo está preparado para o inverno",
@@ -289,7 +264,7 @@ export const translations = {
   },
 
   "es-ES": {
-    // General
+    
     weatherForecast: "Pronóstico del Tiempo",
     searchLocation: "Buscar ubicación...",
     selectLocale: "Seleccionar idioma",
@@ -300,7 +275,7 @@ export const translations = {
     feelsLike: "Sensación térmica",
     loading: "Cargando",
 
-    // Weather conditions
+    
     Sunny: "Soleado",
     Cloudy: "Nublado",
     Rainy: "Lluvioso",
@@ -309,7 +284,7 @@ export const translations = {
     Foggy: "Niebla",
     Snowy: "Nevado",
 
-    // Weather metrics
+   
     humidity: "Humedad",
     precipitation: "Precipitación",
     wind: "Viento",
@@ -323,7 +298,7 @@ export const translations = {
     kmh: "km/h",
     hPa: "hPa",
 
-    // Air quality levels
+    
     Good: "Buena",
     Moderate: "Moderada",
     UnhealthySensitive: "Insalubre para Grupos Sensibles",
@@ -331,7 +306,7 @@ export const translations = {
     VeryUnhealthy: "Muy Insalubre",
     Hazardous: "Peligrosa",
 
-    // Tabs and sections
+    
     dailyForecast: "Pronóstico Diario",
     hourlyForecast: "Pronóstico por Hora",
     last7Days: "Últimos 7 Días",
@@ -346,7 +321,7 @@ export const translations = {
     noFavoriteLocations: "Aún no hay ubicaciones favoritas. Añade algunas de la lista de ubicaciones.",
     rain: "Lluvia",
 
-    // Weather map
+    
     weatherMap: "Mapa Meteorológico",
     temperature: "Temperatura",
     cold: "Frío",
@@ -376,56 +351,56 @@ export const translations = {
     afternoon: "Tarde",
     night: "Noche",
 
-    // Alerts
+    
     alert: "Alerta",
 
-    // Alert types
+    
     Rain: "Lluvia",
     Storm: "Tormenta",
     Fog: "Niebla",
     Snow: "Nieve",
 
-    // Alert messages
+    
     "Heavy rain expected": "Se espera lluvia intensa",
     "Thunderstorms with possible lightning": "Tormentas con posibles rayos",
     "Dense fog reducing visibility": "Niebla densa reduciendo la visibilidad",
     "Heavy snowfall expected": "Se espera nevada intensa",
 
-    // Time-related
+    
     sunrise: "Amanecer",
     sunset: "Atardecer",
 
-    // Alert severity levels
+   
     advisory: "Aviso",
     warning: "Alerta",
     severe: "Alerta Grave",
     extreme: "Alerta Extremo",
 
-    // Alert recommendations
+   
     showRecommendations: "Mostrar recomendaciones",
     hideRecommendations: "Ocultar recomendaciones",
     expiresAt: "Expira a las",
 
-    // Rain recommendations
+   
     stayIndoors: "Permanezca en interiores si es posible",
     useUmbrella: "Use paraguas al salir",
     avoidFlooding: "Evite áreas propensas a inundaciones",
     driveSafely: "Conduzca con cuidado en carreteras mojadas",
 
-    // Storm recommendations
+    
     seekShelter: "Busque refugio inmediatamente",
     avoidTrees: "Manténgase alejado de árboles y áreas abiertas",
     unpluggElectronics: "Desconecte dispositivos electrónicos sensibles",
     stayInformed: "Manténgase informado a través de noticias locales",
     avoidMetalObjects: "Evite el contacto con objetos metálicos",
 
-    // Fog recommendations
+    
     reduceDrivingSpeed: "Reduzca la velocidad al conducir",
     useFogLights: "Use luces antiniebla al conducir",
     keepDistance: "Mantenga una distancia segura de otros vehículos",
     avoidTravel: "Evite viajes innecesarios",
 
-    // Snow recommendations
+    
     dressWarmly: "Vístase con capas abrigadas",
     clearSnow: "Limpie la nieve de las aceras",
     prepareCar: "Asegúrese de que su vehículo esté preparado para el invierno",
@@ -433,7 +408,7 @@ export const translations = {
   },
 
   "fr-FR": {
-    // General
+    
     weatherForecast: "Prévisions Météo",
     searchLocation: "Rechercher un lieu...",
     selectLocale: "Sélectionner la langue",
@@ -444,7 +419,7 @@ export const translations = {
     feelsLike: "Ressenti",
     loading: "Chargement",
 
-    // Weather conditions
+    
     Sunny: "Ensoleillé",
     Cloudy: "Nuageux",
     Rainy: "Pluvieux",
@@ -453,7 +428,7 @@ export const translations = {
     Foggy: "Brumeux",
     Snowy: "Neigeux",
 
-    // Weather metrics
+   
     humidity: "Humidité",
     precipitation: "Précipitation",
     wind: "Vent",
@@ -467,7 +442,7 @@ export const translations = {
     kmh: "km/h",
     hPa: "hPa",
 
-    // Air quality levels
+    
     Good: "Bonne",
     Moderate: "Modérée",
     UnhealthySensitive: "Malsaine pour Groupes Sensibles",
@@ -475,7 +450,7 @@ export const translations = {
     VeryUnhealthy: "Très Malsaine",
     Hazardous: "Dangereuse",
 
-    // Tabs and sections
+    
     dailyForecast: "Prévisions Quotidiennes",
     hourlyForecast: "Prévisions Horaires",
     last7Days: "7 Derniers Jours",
@@ -490,7 +465,7 @@ export const translations = {
     noFavoriteLocations: "Pas encore de lieux favoris. Ajoutez-en depuis la liste des lieux.",
     rain: "Pluie",
 
-    // Weather map
+    
     weatherMap: "Carte Météo",
     temperature: "Température",
     cold: "Froid",
@@ -520,78 +495,71 @@ export const translations = {
     afternoon: "Après-midi",
     night: "Nuit",
 
-    // Alerts
+    
     alert: "Alerte",
 
-    // Alert types
+    
     Rain: "Pluie",
     Storm: "Orage",
     Fog: "Brouillard",
     Snow: "Neige",
 
-    // Alert messages
+    
     "Heavy rain expected": "Fortes pluies attendues",
     "Thunderstorms with possible lightning": "Orages avec risque de foudre",
     "Dense fog reducing visibility": "Brouillard dense réduisant la visibilité",
     "Heavy snowfall expected": "Fortes chutes de neige attendues",
 
-    // Time-related
+    
     sunrise: "Lever du soleil",
     sunset: "Coucher du soleil",
 
-    // Alert severity levels
+   
     advisory: "Avis",
     warning: "Alerte",
     severe: "Alerte Grave",
     extreme: "Alerte Extrême",
 
-    // Alert recommendations
+   
     showRecommendations: "Afficher les recommandations",
     hideRecommendations: "Masquer les recommandations",
     expiresAt: "Expire à",
 
-    // Rain recommendations
+   
     stayIndoors: "Restez à l'intérieur si possible",
     useUmbrella: "Utilisez un parapluie en sortant",
     avoidFlooding: "Évitez les zones sujettes aux inondations",
     driveSafely: "Conduisez prudemment sur les routes mouillées",
 
-    // Storm recommendations
+    
     seekShelter: "Cherchez un abri immédiatement",
     avoidTrees: "Restez loin des arbres et des espaces ouverts",
     unpluggElectronics: "Débranchez les appareils électroniques sensibles",
     stayInformed: "Restez informé via les nouvelles locales",
     avoidMetalObjects: "Évitez le contact avec des objets métalliques",
 
-    // Fog recommendations
+    
     reduceDrivingSpeed: "Réduisez votre vitesse en conduisant",
     useFogLights: "Utilisez les feux antibrouillard en conduisant",
     keepDistance: "Maintenez une distance de sécurité avec les autres véhicules",
     avoidTravel: "Évitez les déplacements inutiles",
 
-    // Snow recommendations
+    
     dressWarmly: "Habillez-vous chaudement en couches",
     clearSnow: "Déneigez les allées",
     prepareCar: "Assurez-vous que votre véhicule est prêt pour l'hiver",
     carryEmergencyKit: "Transportez un kit d'urgence dans votre véhicule",
   },
 
-  // Add more languages as needed...
 }
 
-// Function to get translated text
 export function getTranslation(key: string, locale: string): string {
-  // Default to en-US if the locale doesn't exist
   const localeData = translations[locale] || translations["en-US"]
 
-  // Return the translated text or the key itself if translation doesn't exist
   return localeData[key] || key
 }
 
-// Function to format a date according to the locale
 export function formatDate(date: Date, format: string, locale: string): string {
-  // This is a simplified implementation
-  // In a real app, you would use a library like date-fns with locale support
 
   const options: Intl.DateTimeFormatOptions = {}
 
@@ -628,10 +596,7 @@ export function formatDate(date: Date, format: string, locale: string): string {
   return new Intl.DateTimeFormat(locale, options).format(date)
 }
 
-// Function to format temperature based on locale
 export function formatTemperature(temp: number, locale: string): string {
-  // Some locales might use Fahrenheit instead of Celsius
-  // For simplicity, we'll stick with Celsius for all locales in this example
   return `${temp}°C`
 }
 
